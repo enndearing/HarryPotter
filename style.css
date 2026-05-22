@@ -329,18 +329,26 @@ h3 {
     /* Houses & Characters */
     .partner-list,
     .tutor-list {
-        justify-content: center;
-        gap: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 10px;
     }
 
     .kartu-partner,
     .kartu-tutor {
-        width: 45%;
+    flex: 0 0 auto;
+    width: 90px;
+    text-align: center;
     }
 
     .kartu-partner img {
         width: 120px;
         height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
     }
 
     .kartu-tutor img {
