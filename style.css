@@ -209,19 +209,21 @@ p {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px;
     flex-wrap: nowrap;
+    gap: 35px;
 }
 
 .kartu-partner {
     width: 180px;
     text-align: center;
-    margin: 0;
+    flex-shrink: 0;
 }
 
 .kartu-partner img {
     width: 150px;
     height: 150px;
+    display: block;
+    margin: 0 auto;
     border-radius: 50%;
     object-fit: cover;
 }
