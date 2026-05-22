@@ -1,0 +1,318 @@
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'HarryPotter';
+    src: url('font/HarryP.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding-top: 80px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 70px;
+    font-weight: 400;
+    float: left;
+    font-family: 'HarryPotter', sans-serif;
+    color: #FF9D23;
+    text-shadow: -4px 4px 0 black;
+    letter-spacing: 1px;
+}
+
+.harry-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.harry-link:hover {
+    text-decoration: underline;
+}
+
+.deskripsi {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-decoration: bold;
+}
+
+.menu {
+    float: right; 
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #480c0e;
+    z-index: 1;
+    border-bottom: 1px solid #791519;
+    transition: top 0.1s ease;
+}
+
+nav.hide {
+    top: -80px;
+}
+
+nav:hover {
+    top: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #FF9D23;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    margin-bottom: 80px;
+    scroll-margin-top: 100px;
+}
+
+.kolom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    color: #F5F1E8;
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-family: 'HarryPotter', sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #FF9D23;
+    text-shadow: -4px 4px 0 black;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #FF9D23;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #791519;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #FF9D23;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #791519;
+    text-decoration: none;
+}
+
+p {
+    margin: 8px 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+    font-family: 'HarryPotter', serif;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #FF9D23;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'HarryPotter', serif;
+    letter-spacing: 1px;
+    text-shadow: -2px 2px 0 black;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    color: #FF9D23;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.kartu-partner p {
+    font-family: 'HarryPotter', serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #FF9D23;
+    letter-spacing: 2px;
+    text-shadow: -2px 2px 0 black;
+}
+
+#contact {
+    background: #FF9D23;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #480c0e;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+.kartu-partner p:hover {
+    background: #791519;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
