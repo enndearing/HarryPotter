@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'HarryPotter';
-    src: url('font/HarryP.ttf') format('truetype');
+    src: url('HarryP.ttf') format('truetype');
 }
 
 body {
