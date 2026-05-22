@@ -297,18 +297,32 @@ h3 {
     }
 
     .logo a {
-        font-size: 45px;
+        font-size: 42px;
     }
 
+    /* section jangan dipaksa horizontal */
     section {
-        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     section img {
-        max-width: 100%;
+        width: 80%;
         height: auto;
+        margin-bottom: 20px;
     }
 
+    /* title lebih kecil */
+    h2 {
+        font-size: 65px;
+        line-height: 1;
+    }
+
+    .kolom .deskripsi {
+        font-size: 16px;
+    }
+
+    /* Houses & Characters */
     .partner-list,
     .tutor-list {
         justify-content: center;
@@ -317,36 +331,48 @@ h3 {
 
     .kartu-partner,
     .kartu-tutor {
-        width: 18%;
-        margin: 0;
+        width: 40%;
     }
 
-    /* contact developer lebih panjang */
+    .kartu-partner img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .kartu-tutor img {
+        width: 100%;
+    }
+
+    .kartu-partner p,
+    .kartu-tutor p {
+        font-size: 24px;
+    }
+
+    /* Footer */
     #contact {
-        padding: 5px 40px;
+        padding: 30px 20px;
         box-sizing: border-box;
     }
 
-.footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
 
-.footer-section {
-    min-width: 150px;
-    flex: 1 1 160px;
-}
+    .footer-section {
+        min-width: 180px;
+        flex: 1 1 200px;
+    }
 
-.footer-section h3 {
-    font-size: 24px;
-    line-height: 35px;
-}
+    .footer-section h3 {
+        font-size: 24px;
+        line-height: 35px;
+    }
 
-.footer-section p {
-    font-size: 14px;
-    line-height: 1.6;
-    word-break: break-word;
-}
+    .footer-section p {
+        font-size: 14px;
+        line-height: 1.6;
+        word-break: break-word;
+    }
 }
