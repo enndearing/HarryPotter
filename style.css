@@ -205,14 +205,14 @@ p {
 }
 
 .partner-list {
-    width: 95%;
+    width: 100%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
 }
 
 .kartu-partner {
-    width: 40%;
+    width: 90%;
     margin: 0 auto;
 }
 
