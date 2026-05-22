@@ -206,14 +206,17 @@ p {
 
 .partner-list {
     width: 100%;
-    position: relative;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: nowrap;
 }
 
 .kartu-partner {
-    width: 95px;
-    margin: 0 auto;
+    width: 180px;
+    text-align: center;
+    margin: 0;
 }
 
 .kartu-partner img {
