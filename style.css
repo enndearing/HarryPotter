@@ -276,6 +276,18 @@ h3 {
     text-decoration: none;
 }
 
+
+.ig-link {
+    color: #530d0f;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.ig-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 991.98px) {
     .wrapper {
         width: 90%;
