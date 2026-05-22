@@ -17,7 +17,7 @@ body {
 }
 
 .wrapper {
-    width: 1300px;
+    width: min(1300px, 95%);
     margin: auto;
     position: relative;
 }
@@ -67,10 +67,6 @@ nav {
 
 nav.hide {
     top: -79px;
-}
-
-nav:hover {
-    top: 1px;
 }
 
 nav ul {
@@ -374,5 +370,13 @@ h3 {
         font-size: 14px;
         line-height: 1.6;
         word-break: break-word;
+    }
+
+        body {
+        padding-top: 130px;
+    }
+
+    section {
+        scroll-margin-top: 140px;
     }
 }
