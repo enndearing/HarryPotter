@@ -212,7 +212,7 @@ p {
 }
 
 .kartu-partner {
-    width: 90%;
+    width: 95px;
     margin: 0 auto;
 }
 
@@ -340,7 +340,7 @@ h3 {
     .kartu-partner,
     .kartu-tutor {
     flex: 0 0 auto;
-    width: 140px;
+    width: 95px;
     text-align: center;
     }
 
