@@ -305,9 +305,21 @@ h3 {
         width: 95%;
     }
 
-    .logo a {
-        font-size: 42px;
-    }
+    a.tbl-pink, a.tbl-biru {
+    background: #ddb35d;
+    color: #ffffff;
+}
+
+a.tbl-pink:hover, a.tbl-biru:hover {
+    background: #791519;
+    text-decoration: none;
+}
+
+.logo a {
+    font-size: 42px;
+    text-shadow: -4px 4px 0 black;
+}
+
 
     /* section jangan dipaksa horizontal */
     section {
@@ -326,22 +338,6 @@ h3 {
         font-size: 65px;
         line-height: 1;
     }
-
-a.tbl-pink {
-    background: #ddb35d;
-    border-radius: 20px;
-    display: inline-block;
-    margin-top: 25px;
-    padding: 15px 20px 15px 20px;
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a.tbl-pink:hover {
-    background: #ddb35d;
-    text-decoration: none;
-}
 
     .kolom .deskripsi {
         font-size: 16px;
