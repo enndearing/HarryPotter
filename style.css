@@ -209,7 +209,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 35px;
 }
 
@@ -346,6 +346,7 @@ a.tbl-biru {
     .partner-list,
     .tutor-list {
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -354,22 +355,23 @@ a.tbl-biru {
     }
 
     .kartu-partner {
-        width: 10%;
-     }    
-    
-    .kartu-partner p {
-        font-size: 5px;
+        width: 120px;
         text-align: center;
-        margin: 0 -10px 0 0;
-        gap: 900px;
-    }
+     } 
 
     .kartu-partner img {
-        width: 70px;
-        height: 70px;
-        margin: 0 0 0 -15px;
-        size: 10px;
-        gap: 30%;
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .kartu-partner p {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-top: 10px;
+    word-break: break-word;
+    
     }
 
     .kartu-tutor img {
