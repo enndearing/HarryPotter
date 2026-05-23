@@ -328,7 +328,7 @@ h3 {
     }
 
     a.tbl-biru:hover {
-    background: #791519;
+    background: #ddb35d;
     text-decoration: none;
 }
 
@@ -359,9 +359,10 @@ h3 {
     }
 
     .kartu-partner img {
-        width: 20px;
-        height: 20px;
+        width: 70px;
+        height: 70px;
         margin: 0 0 0 -15px;
+        size: 20%;
     }
 
     .kartu-tutor img {
