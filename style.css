@@ -338,6 +338,11 @@ a.tbl-pink {
     font-weight: bold;
 }
 
+a.tbl-pink:hover {
+    background: #ddb35d;
+    text-decoration: none;
+}
+
     .kolom .deskripsi {
         font-size: 16px;
     }
