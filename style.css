@@ -342,27 +342,29 @@ h3 {
     padding: 10px 15px;
 }
 
-    .kartu-partner,
-    .kartu-tutor {
-        flex: 0 0 auto;
-        width: 20px;
+   .kartu-tutor {
+        width: 40%;
+    }
+
+    .kartu-partner {
+        width: 10%;
+     }    
+    
+    .kartu-partner p {
+        font-size: 25px;
         text-align: center;
-}
+        margin: 0 -10px 0 0;
+        gap: 900px;
+    }
 
     .kartu-partner img {
         width: 110px;
         height: 110px;
-        border-radius: 50%;
-        object-fit: cover;
+        margin: 0 0 0 -15px;
     }
 
     .kartu-tutor img {
         width: 100%;
-    }
-
-    .kartu-partner p,
-    .kartu-tutor p {
-        font-size: 24px;
     }
 
     /* Footer */
