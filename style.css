@@ -305,19 +305,19 @@ h3 {
         width: 95%;
     }
 
-    a.tbl-pink, a.tbl-biru {
+    .tbl-pink, .tbl-biru {
     background: #ddb35d;
     color: #ffffff;
 }
 
-a.tbl-pink:hover, a.tbl-biru:hover {
+.tbl-pink:hover, .tbl-biru:hover {
     background: #791519;
     text-decoration: none;
 }
 
 .logo a {
     font-size: 42px;
-    text-shadow: -4px 4px 0 black;
+    text-shadow: -2.5px -2.5px 0 black;
 }
 
 
