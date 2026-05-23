@@ -327,6 +327,11 @@ h3 {
         line-height: 1;
     }
 
+    a.tbl-biru:hover {
+    background: #791519;
+    text-decoration: none;
+}
+
     .kolom .deskripsi {
         font-size: 16px;
     }
@@ -354,8 +359,8 @@ h3 {
     }
 
     .kartu-partner img {
-        width: 110px;
-        height: 110px;
+        width: 20px;
+        height: 20px;
         margin: 0 0 0 -15px;
     }
 
