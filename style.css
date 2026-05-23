@@ -358,7 +358,7 @@ a.tbl-biru {
      }    
     
     .kartu-partner p {
-        font-size: 25px;
+        font-size: 5px;
         text-align: center;
         margin: 0 -10px 0 0;
         gap: 900px;
@@ -369,6 +369,7 @@ a.tbl-biru {
         height: 70px;
         margin: 0 0 0 -15px;
         size: 10px;
+        gap: 30%;
     }
 
     .kartu-tutor img {
