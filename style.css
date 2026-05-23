@@ -338,14 +338,14 @@ h3 {
     flex-wrap: wrap;
     overflow-x: auto;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     padding: 10px 15px;
 }
 
     .kartu-partner,
     .kartu-tutor {
         flex: 0 0 auto;
-        width: 90px;
+        width: 20px;
         text-align: center;
 }
 
